@@ -61,7 +61,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
 
 <!-- testing locally... -->
-  <script src="https://maps.googleapis.com/maps/api/js?libraries=places" type="text/javascript"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places" type="text/javascript"></script>
 
   <meta name="viewport" content="width=device-width">
 </head>
@@ -170,7 +170,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.backgroundColor = "black";
     }
-    if(document.getElementById('map') === null) {
+    if(document.getElementById('map') === undefined) {
       document.getElementById('mapDiv').style.backgroundColor = "grey";
     }
   </script>

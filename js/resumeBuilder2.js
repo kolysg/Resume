@@ -278,7 +278,6 @@ projects.display = function() {
 };
 projects.display();
 
-//Loc
 
 //Locationizer
 //function locationizer(work){
